@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: lavenderblush;
+}
+
+a{
+    text-decoration: none;
+}
+i{
+    cursor: pointer;
+}
+.navbar {
+    background-color: lavender;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 60px;
+    margin-bottom: 30px;
+}
+/* .logo
+{
+    font-family: "https://fonts.google.com/specimen/Dancing+Script";
+} */
+
+.cart{
+    position: relative;
+    padding: 5px;
+    background-color:lavenderblush;
+    color: black;
+    font-size: 30px;
+    border-radius: 4px ;
+}
+.cartAmount{
+    position: absolute;
+    top: -16px;
+    right: -9px;
+    font-size: 16px;
+    color: red;
+}
+.shop{
+    display: grid;
+    grid-template-columns: repeat(4,223px);
+    gap: 30px;
+    padding-left: 70px;
+    
+}
+.item{
+    border:2px solid black;
+    border-radius: 4px;
+    display: grid;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.price-quntity{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    font-size:26px;
+}
+.img{
+    height: auto;
+}
+.bi-dash{
+    color: red;
+}
+.bi-plus{
+    color: green;
+}
+p{
+    font-size: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    color: gray;
+}
+  @media screen and (min-width: 900px) {
+    .shop {
+        grid-template-columns: repeat(2,223px);
+    }
+  }
+
+.text-center{
+    text-align: center;
+}
+.bi-x-square{
+    color: red;
+    text-align: right;
+    padding-top: 0px;
+}
+.label{
+    padding-bottom: 50px;
+}
+.shopping-cart{
+    display: grid;
+    grid-template-columns: repeat(1,320px);
+    /* height: 200px; */
+    justify-content: center;
+    gap: 25px;
+}
+.cart-item
+{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: space-between;
+    /* grid-template-columns:repeat(1,100px); */
+}
+.title-price-x
+{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+}
+.title-price
+{
+    width: 50px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.checkOut
+{
+    margin: 20px;
+    background-color: green;
+    color: aliceblue;
+}
+
+.clear
+{
+    margin: 20px;
+    background-color: red;
+    color: aliceblue;
+}
+
+
