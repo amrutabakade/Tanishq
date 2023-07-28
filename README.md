@@ -1,2 +1,2 @@
 # Tanishq
-not a clone. just a website for selling ornaments. 
+not a clone. but a website for selling ornaments. 
